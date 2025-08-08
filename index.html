@@ -33,7 +33,9 @@
         </ul>
       </div>
       <!-- hesder flower section -->
-      <div class="grid lg:grid-cols-2 grid-cols-1 space-x-reverse mx-24 items-center">
+      <div
+        class="grid lg:grid-cols-2 grid-cols-1 space-x-reverse mx-24 items-center"
+      >
         <div class="">
           <h1 class="text-3xl md:text-5xl font-bold noto-serif">
             ALWAYS <span class="text-[#E95A08]"> FRESH FLOWERS</span>
@@ -189,9 +191,7 @@
         </div>
       </section>
       <!-- flower plants section  -->
-      <section
-        class="my-24 px-4 max-w-6xl mx-auto items-center mb-36 lg:mb-32"
-      >
+      <section class="my-24 px-4 max-w-6xl mx-auto items-center mb-36 lg:mb-32">
         <div
           class="flex flex-col md:flex-row md:items-center bg-white shadow rounded overflow-hidden"
         >
@@ -222,9 +222,11 @@
           </div>
         </div>
       </section>
-      <div class="my-12 px-4 max-w-6xl mx-auto text-center">
-        <div>
-          <h1 class="font-semibold mb-4 text-4xl">
+      <!-- latest deals -->
+      <section class="container mx-auto px-1 mb-">
+        <!-- section heading -->
+        <div class="text-center mb-9 lg:mb-12">
+          <h1 class="noto-serif text-5xl">
             <span class="text-[#E95A08]">Latest</span> Deals
           </h1>
           <p class="text-[#8987A1]">
@@ -233,19 +235,63 @@
             variety of fresh.
           </p>
         </div>
-        <div>
-          <div class="bg-[url(./assets)]">
-            <h1>25% Off | Zabo Plant</h1>
-            <p>Shop Now</p>
+        <!-- section details  -->
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 justify-center lg:gap-7 gap-3 mb-7 lg:mb-9"
+        >
+          <!-- box-1  -->
+          <div
+            class="w-full flex flex-col items-center justify-center lg:gap-7 gap-3"
+          >
+            <div class="w-full relative rounded-2xl overflow-hidden">
+              <img
+                src="assets/deal-bloom.png"
+                alt=" Bloom folwer"
+                class="w-full object-cover"
+              />
+              <div
+                class="absolute bg-black/40 text-white inset-0 flex items-center justify-center flex-col"
+              >
+                <p class="noto-serif font-black text-xl">
+                  60% Off | Bloom Plant
+                </p>
+                <p class="underline">Shop Now</p>
+              </div>
+            </div>
+            <div class="w-full relative rounded-2xl overflow-hidden">
+              <img
+                src="assets/deal-ana.png"
+                alt="Ana folwer"
+                class="w-full object-cover"
+              />
+              <div
+                class="absolute bg-black/40 text-white inset-0 flex items-center justify-center flex-col"
+              >
+                <p class="noto-serif font-black text-xl">30% Off | Ana Plant</p>
+                <p class="underline">Shop Now</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src="assets/deal-bloom.png" alt="" />
-          </div>
-          <div>
-            <img src="assets/deal-ana.png" alt="" />
+          <!-- box-2  -->
+          <div class="grid lg:col-span-2 w-full">
+            <div class="w-full relative rounded-2xl overflow-hidden h-full">
+              <img
+                src="assets/deal-zabo.png"
+                alt=" Zabo folwer"
+                class="w-full object-cover h-full"
+              />
+              <div
+                class="absolute bg-black/40 text-white inset-0 flex items-center justify-center flex-col"
+              >
+                <p class="noto-serif font-black text-xl lg:text-3xl">
+                  25% Off | Zabo Plant
+                </p>
+                <p class="underline lg:text-2xl mt-1">Shop Now</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="bg-white text-gray-700 text-sm py-10 border-t">
       <div
